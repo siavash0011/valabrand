@@ -1,0 +1,11 @@
+/* Booking.css */
+
+.booking-wrapper { background: #fff; }
+.booking-wrapper.dark { background: #000; }
+
+/* Apply the filter only in dark */
+.booking-wrapper.dark .calendly-iframe {
+  filter: invert(1) hue-rotate(180deg);
+  /* smooth transition */
+  transition: filter 0.3s ease;
+}
