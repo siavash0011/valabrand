@@ -3,10 +3,11 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import ScrollToTop from './components/ScrollToTop';
+const basename = import.meta.env.DEV ? '/' : '/valabrand/'
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename={basename}>
       <ScrollToTop />
       <div className="min-h-screen bg-background text-white flex flex-col">
         <main className="flex-grow">
