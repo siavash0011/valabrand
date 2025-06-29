@@ -1,12 +1,12 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// GitHub Pages deployment config
 export default defineConfig({
-    base: './', // ✅ VERY important for cPanel/static hosting
-
+  base: '/valabrand/',
   plugins: [react()],
   server: {
-    port: 3000,       // or any free port
-    strictPort: true, // exit if 3000 is unavailable
+    port: 3000,
+    strictPort: true,
   },
-});
+})

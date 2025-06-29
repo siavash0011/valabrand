@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const avatarImages = [
-    './logos/Famous-Steve-Jobs-Picture-by-Albert-Watson-Now-in-Color-2.jpg',
+    '.valabrand/logos/Famous-Steve-Jobs-Picture-by-Albert-Watson-Now-in-Color-2.jpg',
     './logos/images.jpg',
     './logos/images (1).jpg',
     './logos/WhatsApp Image 2025-01-08 at 18.05.56 (2).jpeg',
