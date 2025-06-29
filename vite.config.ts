@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // GitHub Pages deployment config
 export default defineConfig({
-  base: 'valabrand/',
+  base: '/',
   plugins: [react()],
   server: {
     port: 3000,

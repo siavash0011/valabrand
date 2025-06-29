@@ -2,11 +2,11 @@ import React, { useEffect, useRef } from 'react';
 
 const LogoCarousel = () => {
   const logos = [
-    'valabrand/logos/imaawdges.jpg',
-    'valabrand/logos/dj.jpg',
-    'valabrand/logos/apple-removebg-preview.png',
-    'valabrand/logos/cropped-arammind-logo-e1742546820790-removebg-preview (1).png',
-    'valabrand/logos/08fcefea5b1035bd08efae4394afb497-removebg-preview.png',
+    './logos/imaawdges.jpg',
+    './logos/dj.jpg',
+    './logos/apple-removebg-preview.png',
+    './logos/cropped-arammind-logo-e1742546820790-removebg-preview (1).png',
+    './logos/08fcefea5b1035bd08efae4394afb497-removebg-preview.png',
   ];
 
   const containerRef = useRef<HTMLDivElement>(null);
