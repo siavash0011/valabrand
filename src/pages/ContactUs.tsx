@@ -63,7 +63,7 @@ function ContactUs() {
         <div className="flex justify-center mb-6">
           <Link to="/" className="flex">
             <img
-              src="./logos/the-matrix-logo-png_seeklogo-138764-removebg-preview.png"
+              src="valabrand/logos/the-matrix-logo-png_seeklogo-138764-removebg-preview.png"
               alt="matrix"
               className="h-12 mb-20"
             />

@@ -4,11 +4,11 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    "./9X3sTCErveScE24wKdWU3W-1200-80.jpg",
-    "./2254852-1716666892-keanu-reeves-neo-matrix-1EdRae3qXMfe.jpg",
-    "./33035909-hugo-weaving-als-agent-smith-in-der-matrix-trilogie-warner-3cfe.jpg",
-    "./matrix-298571.webp",
-    "./1508939944582-matrix_code-copy.webp",
+    "valabrand/9X3sTCErveScE24wKdWU3W-1200-80.jpg",
+    "valabrand/2254852-1716666892-keanu-reeves-neo-matrix-1EdRae3qXMfe.jpg",
+    "valabrand/33035909-hugo-weaving-als-agent-smith-in-der-matrix-trilogie-warner-3cfe.jpg",
+    "valabrand/matrix-298571.webp",
+    "valabrand/1508939944582-matrix_code-copy.webp",
   ];
 
   useEffect(() => {
