@@ -6,7 +6,7 @@ export default defineConfig(({ command, mode }) => {
   const dev = mode === 'development'
 
   return {
-    base: dev ? '/' : '/valabrand',
+     base: '/',
     plugins: [react()],
     server: {
       port: 3000,
