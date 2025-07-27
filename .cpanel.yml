@@ -1,6 +1,5 @@
-
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/peuithqj/public_html/
+    - export DEPLOYPATH=/home/peuithqj/public_html/vala-brand.ir/
     - /bin/cp -R * $DEPLOYPATH
