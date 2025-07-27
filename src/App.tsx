@@ -3,7 +3,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import ScrollToTop from './components/ScrollToTop';
-const basename = import.meta.env.DEV ? '/' : '/valabrand';
+const basename = import.meta.env.DEV ? '/' : '/';
 
 function App() {
   return (
