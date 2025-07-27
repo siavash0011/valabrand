@@ -77,7 +77,7 @@ function ContactUs() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-           <span className="text-gr">باما </span>کار کنید 
+           <span className="text-gr">باما </span>کار کنید! 
         </motion.h2>
 
         <motion.p
@@ -87,7 +87,7 @@ function ContactUs() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
         >
-دنبال رشد کسب‌وکارتان در فضای دیجیتال هستید؟ با ما تماس بگیرید تا حضورتان در دنیای آنلاین را متحول کنیم.
+دنبال رشد کسب‌وکارتان در فضای دیجیتالی هستید؟ با ما تماس بگیرید تا حضورتان در دنیای آنلاین را متحول کنیم.
 
         </motion.p>
 
