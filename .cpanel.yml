@@ -1,5 +1,22 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/peuithqj/public_html/vala-brand.ir/
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/peuithqj/public_html/vala-brand.ir
+    - export TMP_DIR=${HOME}/tmp_deploy_${RANDOM}
+    
+    # 1. Create clean copy
+    - mkdir -p $TMP_DIR
+    - /bin/cp -R . $TMP_DIR
+    
+    # 2. Remove development files
+    - rm -rf $TMP_DIR/.git $TMP_DIR/.env $TMP_DIR/node_modules $TMP_DIR/.idea
+    
+    # 3. Sync to live directory (preserve user uploads)
+    - rsync -avh --delete --exclude='uploads' $TMP_DIR/ $DEPLOYPATH/
+    
+    # 4. Cleanup
+    - rm -rf $TMP_DIR
+    
+    # 5. Set permissions
+    - find $DEPLOYPATH -type d -exec chmod 755 {} \;
+    - find $DEPLOYPATH -type f -exec chmod 644 {} \;
