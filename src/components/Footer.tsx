@@ -84,14 +84,13 @@ const Footer = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <a href="/#hero" className=" mb-4">
+              <a href="/#hero" className=" mb-4 ">
                 <img
-                  src="./logos/m-matrix-logo-vector-template-design-104296547.webp"
+                  src="./logos/the-matrix-logo-png_seeklogo-138764-removebg-preview.png"
                   alt="Matrix Agency"
-                  className="h-20"
+                  className="h-10 mb-4"
                 />
               </a>
-
               <div className="mb-6 ">
                 <h3 className="text-foreground font-bold text-lg mb-3">دریافت اخبار</h3>
                 <p className="text-foreground/50 mb-3 text-sm">ثبت‌ نام در خبرنامه‌ی ما و اولین نفری باشید که از به‌روزرسانی‌های جدید باخبر می‌شوید. نگران نباشید، ما هم از اسپم خوشمان نمی‌آید </p>

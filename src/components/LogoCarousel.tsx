@@ -1,62 +1,31 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
+import './LogoCarousel.css';
 
-const LogoCarousel = () => {
-  const logos = [
-    './logos/imaawdges.jpg',
-    './logos/dj.jpg',
-    './logos/apple-removebg-preview.png',
-    './logos/cropped-arammind-logo-e1742546820790-removebg-preview (1).png',
-    './logos/08fcefea5b1035bd08efae4394afb497-removebg-preview.png',
-  ];
+const logos = [
+  '/logos/08fcefea5b1035bd08efae4394afb497-removebg-preview.png',
+  '/logos/apple-removebg-preview.png',
+  '/logos/cropped-arammind-logo-e1742546820790-removebg-preview (1).png',
+  '/logos/photo_2025-07-22_15-15-44-removebg-preview.png',
+  '/images (1).jpg',
+  '/ba78fc340b71f8f1741bb473f5c606.webp',
+];
 
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const container = containerRef.current;
-    if (!container) return; // ✅ safety check
-  
-    let animationFrameId: number;
-    let speed = 0.5;
-    let position = 0;
-  
-    const animate = () => {
-      position -= speed;
-      if (position < -container.scrollWidth / 2) {
-        position = 0;
-      }
-      container.style.transform = `translateX(${position}px)`;
-      animationFrameId = requestAnimationFrame(animate);
-    };
-  
-    animationFrameId = requestAnimationFrame(animate);
-  
-    return () => cancelAnimationFrame(animationFrameId);
-  }, []);
-  
-
-  return (
-    <div className="overflow-hidden mx-auto max-w-screen-lg"
-      style={{
-        WebkitMaskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
-        maskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent blur)'
-      }}
-    >
-      <div ref={containerRef} className="flex items-center whitespace-nowrap will-change-transform mt-10">
-        {[...logos, ...logos].map((logo, index) => (
-          <div
-            key={index}
-            className="inline-flex px-3 min-w-[200px] sm:min-w-[140px] md:min-w-[260px] justify-center"
-          >
-            <img
-              src={logo}
-              alt={`Logo ${index % logos.length + 1}`}
-              className="h-20 sm:h-28 md:h-28 lg:h-30 object-contain opacity-80 hover:opacity-100 transition-opacity"
-            />
-          </div>
-        ))}
-      </div>
+const LogoCarousel = () => (
+  <div
+    className="carousel-container"
+    style={{
+      WebkitMaskImage:
+        'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)',
+      maskImage:
+        'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)',
+    }}
+  >
+    <div className="carousel-track">
+      {[...logos, ...logos].map((src, i) => (
+        <img key={i} src={src} alt={`logo-${i}`} className="carousel-logo" />
+      ))}
     </div>
-  );
-  
-}
+  </div>
+);
+
 export default LogoCarousel;
