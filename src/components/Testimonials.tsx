@@ -129,20 +129,20 @@ const Testimonials = () => {
             </AnimatePresence>
           </div>
 
-          <div className="flex justify-between items-center mt-8">
+          <div className="flex justify-between items-center">
             <button
               onClick={prev}
               className="bg-matrix-green-deep/30 hover:bg-matrix-green/30 border border-foreground/60 p-3 rounded-full transition-colors"
             >
-              <ChevronLeft className="w-5 h-5 text-foreground" />
+              <ChevronRight className="w-5 h-5 text-foreground" />
             </button>
 
-            <div className="flex space-x-2">
+            <div className="flex gap-2">
               {testimonials.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => {
-                    setDirection(index > current ? 1 : -1);
+                    setDirection(index < current ? -1 : 1);
                     setCurrent(index);
                   }}
                   className={`w-2 h-2 rounded-full transition-colors ${
@@ -156,7 +156,7 @@ const Testimonials = () => {
               onClick={next}
               className="bg-matrix-green-deep/30 hover:bg-matrix-green/30 border border-foreground/60 p-3 rounded-full transition-colors"
             >
-              <ChevronRight className="w-5 h-5 text-foreground" />
+              <ChevronLeft className="w-5 h-5 text-foreground" />
             </button>
           </div>
         </div>
