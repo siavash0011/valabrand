@@ -49,34 +49,34 @@ const FaqItem: React.FC<FaqItemProps> = ({ question, answer, isOpen, onToggle, i
 const Faq = () => {
   const faqs = [
     {
-      question: 'How fast will I receive my videos?',
+      question: 'ویدیوهایم را چقدر سریع دریافت می‌کنم؟',
       answer:
-        'Our standard turnaround time is 2-3 business days for most projects. For more complex edits, we may require up to 5 business days. We also offer rush delivery options if you need your videos sooner.',
+        'زمان تحویل استاندارد ما برای بیشتر پروژه‌ها ۲ تا ۳ روز کاری است. برای ادیت‌های پیچیده‌تر ممکن است تا ۵ روز کاری زمان نیاز باشد. همچنین گزینه تحویل فوری نیز داریم.',
     },
     {
-      question: 'How do I request videos?',
+      question: 'چطور درخواست ویدیو بدهم؟',
       answer:
-        'Once you sign up for our service, you\'ll get access to our client portal where you can submit your video requests, provide instructions, and upload your raw footage. Our team will keep you updated on the progress and deliver your completed videos through the same portal.',
+        'پس از ثبت‌نام، به پنل مشتریان دسترسی خواهید داشت و می‌توانید درخواست‌های ویدیویی خود را ثبت کنید، توضیحات بدهید و فایل‌ها را آپلود کنید. تیم ما شما را از روند کار مطلع می‌کند و ویدیوهای نهایی را از همان پنل دریافت خواهید کرد.',
     },
     {
-      question: 'Why wouldn\'t I just hire my own editor?',
+      question: 'چرا خودم ادیتور استخدام نکنم؟',
       answer:
-        'Hiring and managing in-house editors comes with significant overhead costs, training time, and management responsibilities. Our service provides you with experienced editors at a fraction of the cost, plus we handle all the management, quality control, and ensure consistent results even if one editor is unavailable.',
+        'استخدام و مدیریت ادیتورهای داخلی هزینه و زمان زیادی می‌طلبد. سرویس ما با هزینه کمتر، ادیتورهای حرفه‌ای را در اختیار شما قرار می‌دهد و مدیریت و کنترل کیفیت را هم ما انجام می‌دهیم.',
     },
     {
-      question: 'What if I\'m not happy with my video?',
+      question: 'اگر از ویدیوی خود راضی نباشم چه می‌شود؟',
       answer:
-        'Customer satisfaction is our priority. If you\'re not completely satisfied with your video, we offer unlimited revisions until you\'re happy with the result. Simply provide your feedback, and we\'ll make the necessary adjustments.',
+        'رضایت شما اولویت ماست. اگر از ویدیوی خود راضی نبودید، تا زمانی که کاملاً راضی شوید، اصلاحات نامحدود انجام می‌دهیم. کافیست بازخورد خود را اعلام کنید.',
     },
     {
-      question: 'Do you offer trials or make example videos?',
+      question: 'آیا نمونه یا دوره آزمایشی دارید؟',
       answer:
-        'Yes! We offer a trial period for new clients to experience our service before committing to a long-term plan. During this trial, you can request a sample edit so you can see the quality of our work firsthand.',
+        'بله! برای مشتریان جدید دوره آزمایشی داریم تا قبل از خرید نهایی کیفیت کار ما را ببینند. در این دوره می‌توانید یک نمونه ویدیو درخواست دهید.',
     },
     {
-      question: 'Are there any refunds if I don\'t like the service?',
+      question: 'اگر از سرویس راضی نباشم، بازگشت وجه دارید؟',
       answer:
-        'We offer a 14-day money-back guarantee on our monthly subscription plans. If you\'re not satisfied with our service within the first 14 days, we\'ll provide a full refund, no questions asked.',
+        'ما ضمانت بازگشت وجه ۱۴ روزه برای پلن‌های ماهانه داریم. اگر در ۱۴ روز اول راضی نبودید، کل مبلغ را بدون پرسش بازمی‌گردانیم.',
     },
   ];
 
@@ -91,10 +91,10 @@ const Faq = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
-            Ready to <span className="text-gr">scale</span>? Let's talk!
+            آماده رشد <span className="text-gr">کسب‌وکار</span> هستید؟ با ما صحبت کنید!
           </h2>
           <p className=" max-w-2xl mx-auto">
-            Book a free call with our team below to get started.
+            برای شروع، یک جلسه رایگان با تیم ما رزرو کنید.
           </p>
         </div>
 
@@ -114,7 +114,7 @@ const Faq = () => {
         <div className="flex justify-center mt-12">
           <button className="btn flex gap-3 w-full md:w-auto">
             <User className="w-5 h-5" />
-            Book a 30-min call
+            رزرو جلسه ۳۰ دقیقه‌ای
           </button>
         </div>
       </div>

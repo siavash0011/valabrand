@@ -14,26 +14,26 @@ const Portfolio = () => {
 
   const featured: Person[] = [
     {
-      name: "Lara Acosta",
-      role: "Founder @ LA Digital",
+      name: "لارا آکوستا",
+      role: "موسس LA Digital",
       image: "https://framerusercontent.com/images/xSbfB3WL8zsieiYgVAI8fJKYM.png",
       videoThumbnail: "https://i.ytimg.com/vi_webp/SwBgVJNZ-6Q/sddefault.webp"
     },
     {
-      name: "Dylan Hey",
-      role: "CEO @ Hey Digital",
+      name: "دیلن هی",
+      role: "مدیرعامل Hey Digital",
       image: "https://i.ytimg.com/vi_webp/Slm6Ek465ow/sddefault.webp",
       videoThumbnail: "https://i.ytimg.com/vi_webp/Slm6Ek465ow/sddefault.webp"
     },
     {
-      name: "Mark Firth",
-      role: "CEO @ B2B Growth Team",
+      name: "مارک فیرث",
+      role: "مدیرعامل تیم رشد B2B",
       image: "https://ext.same-assets.com/2650834761/1793305743.jpeg",
       videoThumbnail: "https://ext.same-assets.com/2650834761/772108259.png"
     },
     {
-      name: "Yasir Khan",
-      role: "Public Speaking Coach",
+      name: "یاسر خان",
+      role: "مربی سخنرانی",
       image: "https://ext.same-assets.com/2650834761/3708638618.jpeg",
       videoThumbnail: "https://ext.same-assets.com/2650834761/4274304582.webp"
     }
@@ -79,20 +79,20 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="py-14 bg-background text-foreground relative overflow-hidden">
       
-          {/* Video examples */}
-          <div className="">
-            <h2 className="text-3xl font-bold mb-8 text-center">
-              Short-Form Video <span className="text-gr">Examples</span>
-            </h2>
-            <p className="text-gray-400 text-center mb-10">
-              Videos Optimized for All Platforms. Name any social media platform, we can handle it.
-            </p>
-            <div className="flex justify-center">
-              <button className="btn ">
-                Click here for pricing & packages
-              </button>
-            </div>
-          </div>
+      {/* Video examples */}
+      <div className="">
+        <h2 className="text-3xl font-bold mb-8 text-center">
+          نمونه ویدیوهای <span className="text-gr">کوتاه</span>
+        </h2>
+        <p className="text-gray-400 text-center mb-10">
+          ویدیوها برای همه پلتفرم‌ها بهینه شده‌اند. هر شبکه اجتماعی که بخواهید، ما انجام می‌دهیم.
+        </p>
+        <div className="flex justify-center">
+          <button className="btn ">
+            برای مشاهده قیمت و پکیج‌ها کلیک کنید
+          </button>
+        </div>
+      </div>
       <div className="container mx-auto px-4 relative z-10 -5mt">
         
         <div className="mb-16">
@@ -147,7 +147,7 @@ const Portfolio = () => {
           </div>
 
           <div className="flex justify-center mb-12">
-            <button className="btn w-full md:w-auto">Book a 30-min call</button>
+            <button className="btn w-full md:w-auto">رزرو جلسه ۳۰ دقیقه‌ای</button>
           </div>
 
         </div>

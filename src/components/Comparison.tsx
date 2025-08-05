@@ -24,19 +24,19 @@ const ComparisonItem = ({ text, checked }: { text: string; checked: boolean }) =
 
 const Comparison = () => {
   const otherAgencyFeatures = [
-    { text: "Slow communication", checked: false },
-    { text: "Single channel approach", checked: false },
-    { text: "Outdated growth strategies", checked: false },
-    { text: "Lack of industry research", checked: false },
-    { text: "Outsourced to mediocre talent", checked: false },
+    { text: "ارتباط کند و ضعیف", checked: false },
+    { text: "فقط یک کانال ارتباطی", checked: false },
+    { text: "استراتژی‌های رشد قدیمی", checked: false },
+    { text: "عدم تحقیق تخصصی در صنعت", checked: false },
+    { text: "برون‌سپاری به افراد غیرحرفه‌ای", checked: false },
   ];
 
   const matrixFeatures = [
-    { text: "Constant, proactive communication", checked: true },
-    { text: "Omni-channel approach", checked: true },
-    { text: "Tailored best-fit solutions", checked: true },
-    { text: "Provides industry specific expertise", checked: true },
-    { text: "Experts with 4+ years of experience", checked: true },
+    { text: "ارتباط دائم و فعال با مشتری", checked: true },
+    { text: "استفاده از چندین کانال ارتباطی", checked: true },
+    { text: "راه‌حل‌های اختصاصی و متناسب با نیاز شما", checked: true },
+    { text: "ارائه تخصص ویژه هر صنعت", checked: true },
+    { text: "تیم متخصص با بیش از ۴ سال تجربه", checked: true },
   ];
 
   return (
@@ -47,14 +47,14 @@ const Comparison = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold">
-            But, why would you want to work <span className="text-matrix-glow">with us</span>?
+            چرا باید <span className="text-matrix-glow">با ما</span> کار کنید؟
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {/* Other Agencies - Dark Glassmorphism effect */}
+          {/* Other Agencies */}
           <div className="flex flex-col gap-4">
-            <h3 className="text-3xl font-semibold text-center text-muted-foreground dark:text-gray-400">Other Agencies</h3>
+            <h3 className="text-3xl font-semibold text-center text-muted-foreground dark:text-gray-400">آژانس‌های دیگر</h3>
             <motion.div
               className="backdrop-blur-sm bg-foreground/5 dark:bg-matrix-black/40 dark:bg-gradient-to-br dark:from-matrix-black/80 dark:to-black/80 p-8 rounded-2xl border border-foreground/20 dark:border-gray-800 shadow-xl"
               initial={{ opacity: 0, y: 20 }}
@@ -71,9 +71,9 @@ const Comparison = () => {
             </motion.div>
           </div>
 
-          {/* Matrix - Glowing Matrix Glassmorphism effect with matrix color accents */}
+          {/* Matrix */}
           <div className="flex flex-col gap-4">
-            <h3 className="text-3xl font-bold text-center">matrix</h3>
+            <h3 className="text-3xl font-bold text-center">ماتریکس</h3>
             <motion.div
               className="backdrop-blur-md relative p-8 rounded-2xl border border-matrix-green/30 dark:border-matrix-green shadow-xl overflow-hidden"
               initial={{ opacity: 0, y: 20 }}
@@ -85,10 +85,7 @@ const Comparison = () => {
                 boxShadow: `0 10px 30px rgba(0, 0, 0, 0.3), 0 0 40px rgba(${parseInt('1A', 16)},${parseInt('FF', 16)},${parseInt('66', 16)},0.2), inset 0 1px 1px rgba(255, 255, 255, 0.07)`
               }}
             >
-              {/* Lighting effect overlay with matrix colors */}
               <div className="absolute inset-0 bg-gradient-to-tr from-matrix-green/20 via-transparent to-matrix-glow/10 mix-blend-overlay" />
-
-              {/* Subtle glow effect with matrix colors */}
               <div className="absolute -top-20 -right-20 w-40 h-40 bg-matrix-glow opacity-10 rounded-full blur-3xl" />
               <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-matrix-deep opacity-10 rounded-full blur-3xl" />
 

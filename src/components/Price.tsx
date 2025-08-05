@@ -29,7 +29,7 @@ function Price() {
             transition={{ duration: 0.5 }}
             className="text-base font-semibold text-matrix-glow"
           >
-            Pricing
+            پلن‌های قیمت‌گذاری
           </motion.h2>
 
           <motion.p
@@ -39,7 +39,7 @@ function Price() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mt-2 text-5xl font-semibold tracking-tight text-balance sm:text-6xl"
           >
-            Choose the right plan for <span className="text-transparent bg-clip-text bg-gradient-to-r from-matrix-lime via-matrix-glow to-matrix-deep">you</span>
+            پلن مناسب کسب‌وکار <span className="text-transparent bg-clip-text bg-gradient-to-r from-matrix-lime via-matrix-glow to-matrix-deep">خودتان</span> را انتخاب کنید
           </motion.p>
         </div>
 
@@ -50,7 +50,7 @@ function Price() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-muted-foreground sm:text-xl/8"
         >
-          Choose an affordable plan that's packed with the best features for engaging your audience, creating customer loyalty, and driving sales.
+          یک پلن مقرون‌به‌صرفه انتخاب کنید که بهترین امکانات را برای جذب مخاطب، وفادارسازی مشتری و افزایش فروش ارائه می‌دهد.
         </motion.p>
 
         {/* Pricing Cards */}
@@ -72,30 +72,30 @@ function Price() {
             <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-matrix-deep opacity-10 rounded-full blur-3xl" />
 
             <div className="relative z-10">
-              <h3 id="tier-hobby" className="text-base/7 font-semibold text-matrix-glow">Hobby</h3>
+              <h3 id="tier-hobby" className="text-base/7 font-semibold text-matrix-glow">پلن پایه</h3>
               <p className="mt-4 flex items-baseline gap-x-2">
-                <span className="text-5xl font-semibold tracking-tight">$29</span>
-                <span className="text-base text-muted-foreground">/month</span>
+                <span className="text-5xl font-semibold tracking-tight">۲۹ دلار</span>
+                <span className="text-base text-muted-foreground">/ماهانه</span>
               </p>
               <p className="mt-6 text-base/7 text-muted-foreground">
-                The perfect plan if you're just getting started with our product.
+                مناسب برای شروع کار با سرویس ما.
               </p>
               <ul role="list" className="mt-8 space-y-3 text-sm/6 text-muted-foreground sm:mt-10">
                 <li className="flex gap-x-3">
                   <CheckCircle className="h-6 w-5 flex-none text-matrix-glow" />
-                  25 products
+                  ۲۵ محصول
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircle className="h-6 w-5 flex-none text-matrix-glow" />
-                  Up to 10,000 subscribers
+                  تا ۱۰ هزار مشترک
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircle className="h-6 w-5 flex-none text-matrix-glow" />
-                  Advanced analytics
+                  آنالیتیکس پیشرفته
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircle className="h-6 w-5 flex-none text-matrix-glow" />
-                  24-hour support response time
+                  پاسخگویی ۲۴ ساعته
                 </li>
               </ul>
               <a
@@ -103,7 +103,7 @@ function Price() {
                 aria-describedby="tier-hobby"
                 className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-white bg-matrix-deep hover:bg-matrix-glow transition-all duration-300 shadow-[0_0_15px_rgba(26,255,102,0.15)]"
               >
-                Get started today
+                همین حالا شروع کنید
               </a>
             </div>
           </motion.div>
@@ -125,34 +125,34 @@ function Price() {
             <div className="absolute -top-20 -left-20 w-40 h-40 bg-matrix-glow opacity-10 rounded-full blur-3xl" />
 
             <div className="relative z-10">
-              <h3 id="tier-enterprise" className="text-base/7 font-semibold text-matrix-lime">Enterprise</h3>
+              <h3 id="tier-enterprise" className="text-base/7 font-semibold text-matrix-lime">پلن حرفه‌ای</h3>
               <p className="mt-4 flex items-baseline gap-x-2">
-                <span className="text-5xl font-semibold tracking-tight">$99</span>
-                <span className="text-base text-muted-foreground">/month</span>
+                <span className="text-5xl font-semibold tracking-tight">۹۹ دلار</span>
+                <span className="text-base text-muted-foreground">/ماهانه</span>
               </p>
               <p className="mt-6 text-base/7 text-muted-foreground">
-                Dedicated support and infrastructure for your company.
+                پشتیبانی اختصاصی و زیرساخت ویژه برای شرکت شما.
               </p>
               <ul role="list" className="mt-8 space-y-3 text-sm/6 text-muted-foreground sm:mt-10">
                 <li className="flex gap-x-3">
                   <CheckCircle className="h-6 w-5 flex-none text-matrix-lime" />
-                  Unlimited products
+                  محصولات نامحدود
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircle className="h-6 w-5 flex-none text-matrix-lime" />
-                  Unlimited subscribers
+                  مشترکین نامحدود
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircle className="h-6 w-5 flex-none text-matrix-lime" />
-                  Advanced analytics and reporting
+                  آنالیتیکس و گزارش‌گیری پیشرفته
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircle className="h-6 w-5 flex-none text-matrix-lime" />
-                  1-hour, dedicated support response time
+                  پاسخگویی اختصاصی ۱ ساعته
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircle className="h-6 w-5 flex-none text-matrix-lime" />
-                  Custom integrations
+                  یکپارچه‌سازی سفارشی
                 </li>
               </ul>
               <a
@@ -160,7 +160,7 @@ function Price() {
                 aria-describedby="tier-enterprise"
                 className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-white bg-matrix-lime hover:bg-opacity-90 transition-all duration-300 shadow-[0_0_15px_rgba(182,255,0,0.15)]"
               >
-                Contact sales
+                تماس با فروش
               </a>
             </div>
           </motion.div>

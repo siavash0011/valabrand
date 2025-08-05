@@ -3,16 +3,16 @@ import { motion } from 'framer-motion';
 const Clients = () => {
   const clients = [
     {
-      name: "Dr. Dustin Portela",
+      name: "دکتر داستین پورتلا",
       imageUrl: "https://framerusercontent.com/images/r6dPvXcOoM8hG1vEJKXWbHdif8.jpeg",
-      description: "I've used Siavash and his team for 2-3 months, creating 40-50 amazing videos. They handle everything efficiently and communicate well.",
-      role: "Founder @ Scale Video Agency"
+      description: "من و تیمم با سیاوش حدود ۲ تا ۳ ماه همکاری داشتیم و ۴۰ تا ۵۰ ویدیو فوق‌العاده ساختیم. همه چیز را به خوبی مدیریت می‌کنند و ارتباط عالی دارند.",
+      role: "بنیان‌گذار آژانس ویدیو اسکیل"
     },
     {
-      name: "Jimmy Conover",
+      name: "جیمی کانوور",
       imageUrl: "https://i.ytimg.com/vi_webp/Slm6Ek465ow/sddefault.webp",
-      description: "I struggled with video editors until I found Siavash and matrix. Our first video got 80 thousand views, transforming my channel.",
-      role: "Speaking Coach"
+      description: "قبل از آشنایی با سیاوش و تیم ماتریکس، با ادیتورهای ویدیو مشکل داشتم. اولین ویدیوی ما ۸۰ هزار بازدید گرفت و کانالم متحول شد.",
+      role: "مربی سخنرانی"
     }
   ];
 
@@ -21,10 +21,10 @@ const Clients = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
-          Hear it directly from <span className="text-gr">our clients</span>.
+            نظرات <span className="text-gr">مشتریان ما</span> را بخوانید
           </h2>
           <p className="text-foreground max-w-2xl mx-auto">
-            Hear what our clients have to say. Our testimonials reflect the satisfaction our clients have in our services.
+            ببینید مشتریان ما درباره خدمات ما چه می‌گویند. رضایت آن‌ها نشان‌دهنده کیفیت خدمات ماست.
           </p>
         </div>
 

@@ -10,34 +10,34 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    name: "Dr. Dustin Portela",
+    name: "دکتر داستین پورتلا",
     image: "https://framerusercontent.com/images/r6dPvXcOoM8hG1vEJKXWbHdif8.jpeg",
-    description: "I've used Siavash and his team for 2-3 months, creating 40-50 amazing videos.",
-    role: "Founder @ Scale Video Agency",
+    description: "من و تیمم با سیاوش حدود ۲ تا ۳ ماه همکاری داشتیم و ۴۰ تا ۵۰ ویدیو فوق‌العاده ساختیم.",
+    role: "بنیان‌گذار آژانس Scale Video",
   },
   {
-    name: "Jimmy Conover",
+    name: "جیمی کانوور",
     image: "https://i.ytimg.com/vi_webp/Slm6Ek465ow/sddefault.webp",
-    description: "I struggled with editors until I found Matrix. Our first video hit 80k views.",
-    role: "Speaking Coach",
+    description: "قبل از آشنایی با ماتریکس، با ادیتورهای ویدیو مشکل داشتم. اولین ویدیوی ما ۸۰ هزار بازدید گرفت.",
+    role: "مربی سخنرانی",
   },
   {
-    name: "Alex Martinez",
+    name: "الکس مارتینز",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
-    description: "The communication, speed, and results are top-notch. Highly recommended!",
-    role: "Marketing Expert",
+    description: "ارتباط، سرعت و نتیجه کار عالی بود. شدیداً توصیه می‌کنم!",
+    role: "متخصص بازاریابی",
   },
   {
-    name: "Sofia Lopez",
+    name: "سوفیا لوپز",
     image: "https://randomuser.me/api/portraits/women/44.jpg",
-    description: "They went beyond expectations with every delivery. Perfect for creators.",
-    role: "Content Strategist",
+    description: "در هر تحویل فراتر از انتظار عمل کردند. عالی برای تولیدکنندگان محتوا.",
+    role: "استراتژیست محتوا",
   },
   {
-    name: "Ryan Brooks",
+    name: "رایان بروکس",
     image: "https://randomuser.me/api/portraits/men/56.jpg",
-    description: "Their editing style matched my brand perfectly. I'll continue working with them.",
-    role: "Fitness Influencer",
+    description: "سبک ادیت آن‌ها کاملاً با برند من هماهنگ بود. همکاری را ادامه می‌دهم.",
+    role: "اینفلوئنسر فیتنس",
   },
 ];
 

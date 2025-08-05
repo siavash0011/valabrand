@@ -9,7 +9,6 @@ const ResultCard = ({ name, image, stats }: { name: string; image: string; stats
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
-      {/* Parent div with overflow-hidden */}
       <div className="overflow-hidden">
         <img
           src={image}
@@ -36,30 +35,30 @@ const ResultCard = ({ name, image, stats }: { name: string; image: string; stats
 const Results = () => {
   const results = [
     {
-      name: "Dr. Dustin Portela",
+      name: "دکتر داستین پورتلا",
       image: "https://framerusercontent.com/images/cR0i5UBAArtcLd5VuRqiV9GHSI.jpeg",
       stats: [
-        "Added over 10M+ views",
-        "10K+ Subscribers",
-        "Generated 10M+ Views"
+        "افزایش بیش از ۱۰ میلیون بازدید",
+        "۱۰ هزار+ مشترک جدید",
+        "تولید بیش از ۱۰ میلیون بازدید"
       ]
     },
     {
-      name: "Craig Valentine",
+      name: "کریگ ولنتاین",
       image: "https://framerusercontent.com/images/n6tKwVkZYWM2DLaJl2ETfFefK0.jpeg",
       stats: [
-        "Added over 70K+ followers",
-        "Generated 5M+ Views",
-        "Added 70K+ Followers"
+        "افزایش بیش از ۷۰ هزار دنبال‌کننده",
+        "تولید ۵ میلیون+ بازدید",
+        "افزایش ۷۰ هزار+ دنبال‌کننده"
       ]
     },
     {
-      name: "Lara Acosta",
+      name: "لارا آکوستا",
       image: "https://framerusercontent.com/images/xSbfB3WL8zsieiYgVAI8fJKYM.png",
       stats: [
-        "From 0 to 8K+ subscribers",
-        "Generated over $60K+",
-        "500K+ Impressions"
+        "از ۰ تا ۸ هزار+ مشترک",
+        "تولید بیش از ۶۰ هزار دلار درآمد",
+        "۵۰۰ هزار+ ایمپرشن"
       ]
     }
   ];
@@ -69,10 +68,10 @@ const Results = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
-            Results speak for <span className="text-gr">themselves</span>.
+            نتایج <span className="text-gr">خودشان حرف می‌زنند</span>
           </h2>
           <p className=" max-w-2xl mx-auto">
-            We've worked across a number of industries and have achieved some incredible results with some incredible people and brands.
+            ما با برندها و افراد مختلف همکاری داشته‌ایم و به نتایج فوق‌العاده‌ای دست یافته‌ایم.
           </p>
         </div>
 

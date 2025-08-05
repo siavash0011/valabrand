@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import './LogoCarousel.css';
 
 const logos = [
@@ -10,22 +10,37 @@ const logos = [
   '/ba78fc340b71f8f1741bb473f5c606.webp',
 ];
 
-const LogoCarousel = () => (
-  <div
-    className="carousel-container"
-    style={{
-      WebkitMaskImage:
-        'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)',
-      maskImage:
-        'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)',
-    }}
-  >
-    <div className="carousel-track">
-      {[...logos, ...logos].map((src, i) => (
-        <img key={i} src={src} alt={`logo-${i}`} className="carousel-logo" />
-      ))}
+const LogoCarousel = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [repeat, setRepeat] = useState(2);
+
+  useEffect(() => {
+    if (containerRef.current) {
+      const containerWidth = containerRef.current.offsetWidth;
+      const logoWidth = 120; // 80px height + 2*20px margin
+      const minLogos = Math.ceil(containerWidth / logoWidth) + 1;
+      setRepeat(Math.ceil(minLogos / logos.length) * 2);
+    }
+  }, []);
+
+  return (
+    <div
+      className="carousel-container"
+      ref={containerRef}
+      style={{
+        WebkitMaskImage:
+          'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)',
+        maskImage:
+          'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)',
+      }}
+    >
+      <div className="carousel-track">
+        {[...logos, ...logos].map((src, i) => (
+          <img key={i} src={src} alt={`logo-${i}`} className="carousel-logo" />
+        ))}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default LogoCarousel;

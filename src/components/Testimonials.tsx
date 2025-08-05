@@ -13,36 +13,36 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     content:
-      "Siavash and his team are phenomenal. Their unmatched work rate, dedication, and creativity have made them invaluable partners for producing content.",
-    author: "Marcus Engel",
-    role: "Founder",
-    company: "301 Studios",
+      "سیاوش و تیمش فوق‌العاده هستند. سرعت کار، تعهد و خلاقیت بی‌نظیرشان آن‌ها را به شریکان ارزشمند ما برای تولید محتوا تبدیل کرده است.",
+    author: "مارکوس انگل",
+    role: "موسس",
+    company: "301 استودیو",
     avatar:
       "https://framerusercontent.com/images/AdtxRt4SttYxFVAQo4PSmPzbHA.png",
   },
   {
     content:
-      "Siavash and his team at matrix set a new standard for video editing with exceptional quality and efficiency. 10000/10.",
-    author: "Lara Acosta",
-    role: "Founder",
+      "سیاوش و تیم ماتریکس استاندارد جدیدی در ادیت ویدیو با کیفیت و سرعت عالی ایجاد کردند. ۱۰ هزار از ۱۰!",
+    author: "لارا آکوستا",
+    role: "موسس",
     company: "LA Digital",
     avatar:
       "https://framerusercontent.com/images/xSbfB3WL8zsieiYgVAI8fJKYM.png",
   },
   {
     content:
-      "Awesome work! Never once left the loop for any revisions, and made sure end video was exactly what we were looking for.",
-    author: "Mena Mikhail",
-    role: "Founder",
+      "کار عالی! هیچ وقت برای اصلاحات از روند خارج نشدند و مطمئن شدند ویدیو نهایی دقیقا همان چیزی باشد که می‌خواستیم.",
+    author: "منا میخائیل",
+    role: "موسس",
     company: "Human Voice Over",
     avatar:
       "https://framerusercontent.com/images/rmMW09SFJYFXmMfeE6vLaYiET8.png",
   },
   {
     content:
-      "Working with Siavash was seamless. The quality was incredible, with versatile video and animation. It's a one-stop shop. Excited for a long-term partnership.",
-    author: "Inge von Aulock",
-    role: "Founder",
+      "همکاری با سیاوش بسیار روان بود. کیفیت کار فوق‌العاده بود، با ویدیو و انیمیشن‌های متنوع. همه چیز یکجا! مشتاق همکاری بلندمدت هستم.",
+    author: "اینگه فون آلوک",
+    role: "موسس",
     company: "Penfriend",
     avatar:
       "https://framerusercontent.com/images/en50bB3rZx09rgc6noOm3FmYcw.png",
@@ -83,7 +83,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-2 text-foreground">
-            There's a reason people are <span className="text-gr">raving</span> about us.
+            دلیل رضایت <span className="text-gr">مشتریان ما</span> را بخوانید
           </h2>
         </div>
 
