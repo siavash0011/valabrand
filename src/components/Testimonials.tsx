@@ -18,7 +18,7 @@ const testimonials: Testimonial[] = [
     role: "موسس",
     company: "301 استودیو",
     avatar:
-      "https://framerusercontent.com/images/AdtxRt4SttYxFVAQo4PSmPzbHA.png",
+      "public/logos/images.jpg",
   },
   {
     content:
@@ -27,7 +27,7 @@ const testimonials: Testimonial[] = [
     role: "موسس",
     company: "LA Digital",
     avatar:
-      "https://framerusercontent.com/images/xSbfB3WL8zsieiYgVAI8fJKYM.png",
+      "public/logos/images (1).jpg",
   },
   {
     content:
@@ -36,7 +36,7 @@ const testimonials: Testimonial[] = [
     role: "موسس",
     company: "Human Voice Over",
     avatar:
-      "https://framerusercontent.com/images/rmMW09SFJYFXmMfeE6vLaYiET8.png",
+      "public/logos/Famous-Steve-Jobs-Picture-by-Albert-Watson-Now-in-Color-2.jpg",
   },
   {
     content:
@@ -45,7 +45,7 @@ const testimonials: Testimonial[] = [
     role: "موسس",
     company: "Penfriend",
     avatar:
-      "https://framerusercontent.com/images/en50bB3rZx09rgc6noOm3FmYcw.png",
+      "public/logos/WhatsApp Image 2025-01-08 at 18.05.56 (2).jpeg",
   },
 ];
 
@@ -129,7 +129,7 @@ const Testimonials = () => {
             </AnimatePresence>
           </div>
 
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center mt-8">
             <button
               onClick={prev}
               className="bg-matrix-green-deep/30 hover:bg-matrix-green/30 border border-foreground/60 p-3 rounded-full transition-colors"

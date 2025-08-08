@@ -52,28 +52,9 @@ const Comparison = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {/* Other Agencies */}
-          <div className="flex flex-col gap-4">
-            <h3 className="text-3xl font-semibold text-center text-muted-foreground dark:text-gray-400">آژانس‌های دیگر</h3>
-            <motion.div
-              className="backdrop-blur-sm bg-foreground/5 dark:bg-matrix-black/40 dark:bg-gradient-to-br dark:from-matrix-black/80 dark:to-black/80 p-8 rounded-2xl border border-foreground/20 dark:border-gray-800 shadow-xl"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              style={{
-                boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
-              }}
-            >
-              {otherAgencyFeatures.map((feature, index) => (
-                <ComparisonItem key={`other-${index}`} text={feature.text} checked={feature.checked} />
-              ))}
-            </motion.div>
-          </div>
-
           {/* Matrix */}
           <div className="flex flex-col gap-4">
-            <h3 className="text-3xl font-bold text-center">ماتریکس</h3>
+            <h3 className="text-3xl font-bold text-center">والابرند</h3>
             <motion.div
               className="backdrop-blur-md relative p-8 rounded-2xl border border-matrix-green/30 dark:border-matrix-green shadow-xl overflow-hidden"
               initial={{ opacity: 0, y: 20 }}
@@ -96,6 +77,26 @@ const Comparison = () => {
               </div>
             </motion.div>
           </div>
+          {/* Other Agencies */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-3xl font-semibold text-center text-muted-foreground dark:text-gray-400">آژانس‌های دیگر</h3>
+            <motion.div
+              className="backdrop-blur-sm bg-foreground/5 dark:bg-matrix-black/40 dark:bg-gradient-to-br dark:from-matrix-black/80 dark:to-black/80 p-8 rounded-2xl border border-foreground/20 dark:border-gray-800 shadow-xl"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              style={{
+                boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+              }}
+            >
+              {otherAgencyFeatures.map((feature, index) => (
+                <ComparisonItem key={`other-${index}`} text={feature.text} checked={feature.checked} />
+              ))}
+            </motion.div>
+          </div>
+
+          
         </div>
       </div>
     </section>

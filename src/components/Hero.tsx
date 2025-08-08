@@ -77,7 +77,7 @@ const Hero = () => {
                     </motion.div>
                   ))}
                 </div>
-                <p className="text-muted-foreground font-medium">همکاری با 30+ برند معتبر</p>
+                <p className="text-muted-foreground font-medium">همکاری با 20+ برند معتبر</p>
               </div>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-relaxed">

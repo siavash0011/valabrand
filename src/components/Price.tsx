@@ -158,7 +158,7 @@ function Price() {
               <a
                 href="#"
                 aria-describedby="tier-enterprise"
-                className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-white bg-matrix-lime hover:bg-opacity-90 transition-all duration-300 shadow-[0_0_15px_rgba(182,255,0,0.15)]"
+                className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-black bg-matrix-lime hover:bg-opacity-90 transition-all duration-300 shadow-[0_0_15px_rgba(182,255,0,0.15)]"
               >
                 تماس با فروش
               </a>
