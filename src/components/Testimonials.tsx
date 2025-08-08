@@ -18,7 +18,7 @@ const testimonials: Testimonial[] = [
     role: "موسس",
     company: "301 استودیو",
     avatar:
-      "public/logos/images.jpg",
+      "./logos/images.jpg",
   },
   {
     content:
@@ -27,7 +27,7 @@ const testimonials: Testimonial[] = [
     role: "موسس",
     company: "LA Digital",
     avatar:
-      "public/logos/images (1).jpg",
+      "./logos/images (1).jpg",
   },
   {
     content:
@@ -36,7 +36,7 @@ const testimonials: Testimonial[] = [
     role: "موسس",
     company: "Human Voice Over",
     avatar:
-      "public/logos/Famous-Steve-Jobs-Picture-by-Albert-Watson-Now-in-Color-2.jpg",
+      "./logos/Famous-Steve-Jobs-Picture-by-Albert-Watson-Now-in-Color-2.jpg",
   },
   {
     content:
@@ -45,7 +45,7 @@ const testimonials: Testimonial[] = [
     role: "موسس",
     company: "Penfriend",
     avatar:
-      "public/logos/WhatsApp Image 2025-01-08 at 18.05.56 (2).jpeg",
+      "./logos/WhatsApp Image 2025-01-08 at 18.05.56 (2).jpeg",
   },
 ];
 
