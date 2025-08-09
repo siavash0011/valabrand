@@ -3,19 +3,19 @@ import { motion } from 'framer-motion';
 const Clients = () => {
   const clients = [
     {
-      name: "دکتر داستین پورتلا",
+      name: "دکتر عزتی",
       imageUrl: "https://framerusercontent.com/images/r6dPvXcOoM8hG1vEJKXWbHdif8.jpeg",
-      description: "من و تیمم با سیاوش حدود ۲ تا ۳ ماه همکاری داشتیم و ۴۰ تا ۵۰ ویدیو فوق‌العاده ساختیم. همه چیز را به خوبی مدیریت می‌کنند و ارتباط عالی دارند.",
-      role: "بنیان‌گذار آژانس ویدیو اسکیل"
+      description: "در مدتی با مهدی و سیاوس همکاری کردم می تونم از بهترین دوران کاری با یک تیم حرفه ای زندگیم نام ببرم. مهدی با خلاقیت و خوش اخلاقی و سیاوش با نظم و همکاری تیمی یک اهرم قدرتمند در کنار ما بودند و هنوز هم دوستی ما پابرجاست .",
+      role: "مدیر عامل همدرد اول"
     },
     {
-      name: "جیمی کانوور",
-      imageUrl: "https://i.ytimg.com/vi_webp/Slm6Ek465ow/sddefault.webp",
-      description: "قبل از آشنایی با سیاوش و تیم ماتریکس، با ادیتورهای ویدیو مشکل داشتم. اولین ویدیوی ما ۸۰ هزار بازدید گرفت و کانالم متحول شد.",
-      role: "مربی سخنرانی"
+      name: "مهندس عباس نژاد ",
+      imageUrl: "./matrix-298571.webp",
+      description: "تیم والا برند با رهبری مهدی با اخلاق کاملا حرفه ای و تخصص بالا و با ایده های جالب ما رو به فرآیند جدیدی از  توسعه و درامدزایی رسوند و من از صمیم قلب برای این تیم موفقیت می خواهیم.",
+      role: "مدیر عامل نسخه"
     }
   ];
-
+  
   return (
     <section id="testimonials" className="py-20 text-foreground bg-background relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">

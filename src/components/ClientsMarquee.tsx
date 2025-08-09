@@ -10,10 +10,10 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    name: "دکتر داستین پورتلا",
+    name: "دکتر عزتی",
     image: "https://framerusercontent.com/images/r6dPvXcOoM8hG1vEJKXWbHdif8.jpeg",
     description: "من و تیمم با سیاوش حدود ۲ تا ۳ ماه همکاری داشتیم و ۴۰ تا ۵۰ ویدیو فوق‌العاده ساختیم.",
-    role: "بنیان‌گذار آژانس Scale Video",
+    role: "مدیر عامل همدرد اول",
   },
   {
     name: "جیمی کانوور",

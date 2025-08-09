@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    "./9X3sTCErveScE24wKdWU3W-1200-80.jpg",
+    "./Brown Simple Adventure YouTube Banner.webp",
     "./2254852-1716666892-keanu-reeves-neo-matrix-1EdRae3qXMfe.jpg",
     "./33035909-hugo-weaving-als-agent-smith-in-der-matrix-trilogie-warner-3cfe.jpg",
     "./matrix-298571.webp",
@@ -14,7 +14,7 @@ function Carousel() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-    }, 3000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [slides.length]);
 
@@ -24,7 +24,7 @@ function Carousel() {
 
   return (
     <div className="relative w-full" data-carousel="slide">
-      <div className="relative h-56 overflow-hidden md:h-96">
+      <div className="relative h-96 overflow-hidden md:h-96">
         {slides.map((slide, index) => (
           <div
             key={index}
