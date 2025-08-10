@@ -10,6 +10,9 @@ const logos = [
   '/ba78fc340b71f8f1741bb473f5c606.webp',
   './logos/photo_2024-05-19_14-58-23.jpg',
   './logos/e962b673039247.Y3JvcCwxOTk5LDE1NjQsMCwyMTc-removebg-preview.png',
+  './logos/images.png',
+  './logos/jordanclinic-logo-1.png',
+  './logos/newlogo.png',
 ];
 
 const LogoCarousel = () => {
