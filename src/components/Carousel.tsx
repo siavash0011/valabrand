@@ -4,11 +4,9 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    "./Brown Simple Adventure YouTube Banner.webp",
-    "./2254852-1716666892-keanu-reeves-neo-matrix-1EdRae3qXMfe.jpg",
-    "./33035909-hugo-weaving-als-agent-smith-in-der-matrix-trilogie-warner-3cfe.jpg",
-    "./matrix-298571.webp",
-    "./1508939944582-matrix_code-copy.webp",
+    './Brown Simple Adventure YouTube Banner.webp',
+    './logos/WhatsApp Image 2025-08-09 at 20.50.50.jpeg',
+    './1508939944582-matrix_code-copy.webp',
   ];
 
   useEffect(() => {
@@ -19,12 +17,15 @@ function Carousel() {
   }, [slides.length]);
 
   const goToSlide = (index: number) => setCurrentSlide(index);
-  const goToPrev = () => setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
-  const goToNext = () => setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+  const goToPrev = () =>
+    setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+  const goToNext = () =>
+    setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
 
   return (
     <div className="relative w-full" data-carousel="slide">
-      <div className="relative h-96 overflow-hidden md:h-96">
+      {/* Slide container */}
+      <div className="relative h-64 sm:h-96 overflow-hidden">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -34,7 +35,7 @@ function Carousel() {
           >
             <img
               src={slide}
-              className="block w-full h-full object-cover object-bottom"
+              className="block w-full h-full object-cover object-center"
               alt={`Slide ${index + 1}`}
             />
           </div>
@@ -42,7 +43,7 @@ function Carousel() {
       </div>
 
       {/* Indicators */}
-      <div className="absolute z-30 flex gap-2 -translate-x-1/2 bottom-5 left-1/2 rtl:space-x-reverse">
+      <div className="absolute z-30 flex gap-2 -translate-x-1/2 bottom-5 left-1/2">
         {slides.map((_, index) => (
           <button
             key={index}

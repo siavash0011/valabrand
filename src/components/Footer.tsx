@@ -88,7 +88,7 @@ const Footer = () => {
                 <img
                   src="./logos/vaddw.png"
                   alt="Matrix Agency"
-                  className="h-20 mb-4"
+className="h-20 mb-4 mx-auto md:mx-auto lg:mx-auto"
                 />
               </a>
               <div className="mb-6 ">
