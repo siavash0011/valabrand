@@ -8,6 +8,8 @@ const logos = [
   '/logos/photo_2025-07-22_15-15-44-removebg-preview.png',
   '/images (1).jpg',
   '/ba78fc340b71f8f1741bb473f5c606.webp',
+  './logos/photo_2024-05-19_14-58-23.jpg',
+  './logos/e962b673039247.Y3JvcCwxOTk5LDE1NjQsMCwyMTc-removebg-preview.png',
 ];
 
 const LogoCarousel = () => {
