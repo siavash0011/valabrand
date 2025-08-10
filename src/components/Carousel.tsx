@@ -34,7 +34,7 @@ function Carousel() {
           >
             <img
               src={slide}
-              className="block w-full h-full object-cover"
+              className="block w-full h-full object-cover object-bottom"
               alt={`Slide ${index + 1}`}
             />
           </div>

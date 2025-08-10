@@ -86,9 +86,9 @@ const Footer = () => {
             >
               <a href="/#hero" className=" mb-4 ">
                 <img
-                  src="./logos/the-matrix-logo-png_seeklogo-138764-removebg-preview.png"
+                  src="./logos/vaddw.png"
                   alt="Matrix Agency"
-                  className="h-10 mb-4"
+                  className="h-20 mb-4"
                 />
               </a>
               <div className="mb-6 ">

@@ -62,9 +62,9 @@ export default function Navbar() {
         <nav className="hidden md:flex items-center gap-x-4 backdrop-blur-sm border border-primary/30 rounded-xl px-10 py-2">
           <Link to="/#hero">
             <img
-              src="./logos/the-matrix-logo-png_seeklogo-138764-removebg-preview.png"
+              src="./logos/v (1).png"
               alt="matrix"
-              className="h-6"
+              className="h-10"
             />
           </Link>
          <Link to="/contact-us" className="btn-2">تماس با ما</Link>
