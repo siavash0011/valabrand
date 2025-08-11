@@ -2,17 +2,13 @@ import React, { useRef, useEffect, useState } from 'react';
 import './LogoCarousel.css';
 
 const logos = [
-  '/logos/08fcefea5b1035bd08efae4394afb497-removebg-preview.png',
-  '/logos/apple-removebg-preview.png',
   '/logos/cropped-arammind-logo-e1742546820790-removebg-preview (1).png',
   '/logos/photo_2025-07-22_15-15-44-removebg-preview.png',
-  '/images (1).jpg',
-  '/ba78fc340b71f8f1741bb473f5c606.webp',
   './logos/photo_2024-05-19_14-58-23.jpg',
   './logos/e962b673039247.Y3JvcCwxOTk5LDE1NjQsMCwyMTc-removebg-preview.png',
   './logos/images.png',
   './logos/jordanclinic-logo-1.png',
-  './logos/newlogo.png',
+  './logos/hamdard.png',
 ];
 
 const LogoCarousel = () => {
