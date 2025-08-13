@@ -36,7 +36,7 @@ const LogoCarousel = () => {
       }}
     >
       <div className="carousel-track">
-        {[...logos, ...logos].map((src, i) => (
+        {[...logos, ...logos, ...logos, ...logos].map((src, i) => (
           <img key={i} src={src} alt={`logo-${i}`} className="carousel-logo" />
         ))}
       </div>
